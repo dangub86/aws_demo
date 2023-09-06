@@ -1,0 +1,20 @@
+aws:
+  connection:
+    key: AKIA55HTKAGSXJHT26OR
+    secret: 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
+  s3:
+    bucket:
+      name: test-bucket-7896478
+#  user:
+#    url: https://956140487077.signin.aws.amazon.com/console
+#    name: test-aws
+#    password: l9R1165(
+
+logging:
+  level:
+    root: info
+    com:
+      example:
+        aws_demo: debug
+  pattern:
+    console: '%d %p %C{1.} [%t] %X{id} %m%n'
